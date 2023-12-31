@@ -43,15 +43,21 @@ print("Indices of samples in the test set:")
 print(x_test.index.tolist())
 
 param_grid = {
-    'C': [0.1, 1, 10, 100],
-    'gamma': [0.001, 0.01, 0.1, 1],
+    'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
+    'gamma': [0.0001, 0.001, 0.01, 0.1, 1],
     'kernel': ['rbf', 'poly']
 }
 
 svc = svm.SVC(probability=True)
-model = GridSearchCV(svc, param_grid)
+model = GridSearchCV(svc, param_grid, cv=5, n_jobs=-1)
 
 model.fit(x_train, y_train)
+
+results = model.cv_results_
+print("Accuracy on each fold:")
+for i in range(5):
+    mean_test_score = results[f"split{i}_test_score"].mean()
+    print(f"Fold {i + 1}: {mean_test_score}")
 
 model.fit(x_train, y_train)
 best_model = model.best_estimator_

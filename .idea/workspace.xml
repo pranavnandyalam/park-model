@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a30aa572-9b47-4ba2-ae4f-5cc249fc99ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/park-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/park_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/NON_PD/008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/002 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/003 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/004 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/004 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/004 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pd_image_data/PD/007.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZQQ2rLSYvOHRi5HH8iUVDLZzsW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.GUI.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.park_model.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/prn/PycharmProjects/park-model",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pd_image_data" />
+      <recent name="$PROJECT_DIR$/daT scans" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pd_image_data/NON_PD" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pd_image_data/PD" />
+      <recent name="$PROJECT_DIR$/.venv" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="park_model" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="park-model" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/park_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.259" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a30aa572-9b47-4ba2-ae4f-5cc249fc99ac" name="Changes" comment="" />
+      <created>1702351619674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702351619674</updated>
+      <workItem from="1702351623596" duration="1874000" />
+      <workItem from="1702354183672" duration="94000" />
+      <workItem from="1702354312315" duration="8962000" />
+      <workItem from="1703888194024" duration="5716000" />
+      <workItem from="1703973897366" duration="14955000" />
+      <workItem from="1703989373755" duration="1366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/park_model$main.coverage" NAME="park_model Coverage Results" MODIFIED="1703989308692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/park_model$park_model.coverage" NAME="park_model Coverage Results" MODIFIED="1703990339766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/park_model$GUI.coverage" NAME="GUI Coverage Results" MODIFIED="1703990352472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/park_model$test.coverage" NAME="test Coverage Results" MODIFIED="1703887880848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

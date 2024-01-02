@@ -53,7 +53,6 @@ model = GridSearchCV(svc, param_grid, cv=5, n_jobs=-1)
 
 model.fit(x_train, y_train)
 
-results = model.cv_results_
 
 model.fit(x_train, y_train)
 best_model = model.best_estimator_

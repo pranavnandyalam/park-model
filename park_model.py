@@ -54,10 +54,6 @@ model = GridSearchCV(svc, param_grid, cv=5, n_jobs=-1)
 model.fit(x_train, y_train)
 
 results = model.cv_results_
-print("Accuracy on each fold:")
-for i in range(5):
-    mean_test_score = results[f"split{i}_test_score"].mean()
-    print(f"Fold {i + 1}: {mean_test_score}")
 
 model.fit(x_train, y_train)
 best_model = model.best_estimator_

@@ -36,7 +36,7 @@ y = df.iloc[:, -1]
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.20, random_state=77, stratify=y)
 
-max_depths = range(1, 41)
+max_depths = range(1, 31)
 accuracies = []
 
 for depth in max_depths:

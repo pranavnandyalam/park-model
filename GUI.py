@@ -59,7 +59,14 @@ def make_prediction():
         result_label.config(text=result_text)
         result_label_frame.config(borderwidth=3, relief="solid")
 
-model = load('svm_model.joblib')
+x = input("Which model would you like to use? ")
+if x.lower() == "svm":
+    model = load('svm_model.joblib')
+if x.lower() == "lr":
+    model = load('logistic_regression_model.joblib')
+if x.lower() == "dtree":
+    model = load('decision_tree_model.joblib')
+
 Categories = load_categories('categories.txt')
 
 gui = tk.Tk()

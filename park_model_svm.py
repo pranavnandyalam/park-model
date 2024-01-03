@@ -20,7 +20,7 @@ for i in Categories:
     print(f'loading... category : {i}')
     path = os.path.join(datadir, i)
     for img in os.listdir(path):
-        if img.endswith(('.png')):
+        if img.endswith('.png'):
             img_array = imread(os.path.join(path, img))
             img_resized = resize(img_array, (150, 150, 3))
             flat_data_arr.append(img_resized.flatten())

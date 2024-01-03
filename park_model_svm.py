@@ -11,6 +11,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 from joblib import dump, load
 
+
 Categories = ['PD', 'NON_PD']
 flat_data_arr = []
 target_arr = []

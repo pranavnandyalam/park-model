@@ -52,8 +52,6 @@ for C in C_values:
 
 dump(lr_classifier, 'logistic_regression_model.joblib')
 
-
-
 plt.figure(figsize=(12, 6))
 plt.plot(C_values, accuracies, marker='o')
 plt.xscale('log')

@@ -13,8 +13,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 from joblib import dump
 
-training_times = []
-for x in range(10):
+# training_times = []
+for x in range(1):
     start_time = time.time()
     Categories = ['PD', 'NON_PD']
     flat_data_arr = []
@@ -60,6 +60,16 @@ for x in range(10):
 
     model.fit(x_train, y_train)
     dump(model.best_estimator_, 'svm_model.joblib')
+
+    best_index = model.best_index_
+    cv_results = model.cv_results_
+    n_folds = 5
+
+    print(f"Cross-validation accuracies per fold for the best model:")
+    for i in range(n_folds):
+        fold_score = cv_results[f'split{i}_test_score'][best_index]
+        print(f"Fold {i + 1}: {fold_score * 100:.2f}%")
+
     results = {'test_indices': x_test.index.tolist(), 'predictions': model.predict(x_test).tolist()}
     with open('svm_results.json', 'w') as f:
         json.dump(results, f)
@@ -89,8 +99,8 @@ for x in range(10):
 
     end_time = time.time()
     runtime = end_time - start_time
-    training_times.append(runtime)
-    print(f"Runtime of the script: {runtime} seconds")
+    # training_times.append(runtime)
+    # print(f"Runtime of the script: {runtime} seconds")
 
-with open('svm_training_times.json', 'w') as f:
-    json.dump({'training_times': training_times}, f)
+# with open('svm_training_times.json', 'w') as f:
+#     json.dump({'training_times': training_times}, f)

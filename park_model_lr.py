@@ -13,8 +13,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, roc_curve, auc, classification_report
 from sklearn.preprocessing import StandardScaler
 
-training_times3 = []
-for x in range(10):
+# training_times3 = []
+for x in range(1):
     start_time = time.time()
     Categories = ['PD', 'NON_PD']
     flat_data_arr = []
@@ -57,6 +57,14 @@ for x in range(10):
     grid.fit(x_train_scaled, y_train)
 
     dump(grid.best_estimator_, 'logistic_regression_model.joblib')
+    best_index = grid.best_index_
+    cv_results = grid.cv_results_
+    n_folds = 5
+
+    print(f"Cross-validation accuracies per fold for the best model:")
+    for i in range(n_folds):
+        fold_score = cv_results[f'split{i}_test_score'][best_index]
+        print(f"Fold {i + 1}: {fold_score * 100:.2f}%")
 
     y_pred = grid.best_estimator_.predict(x_test_scaled)
     accuracy = accuracy_score(y_test, grid.best_estimator_.predict(x_test))
@@ -93,7 +101,7 @@ for x in range(10):
 
     end_time = time.time()
     runtime = end_time - start_time
-    training_times3.append(runtime)
-    print(f"Runtime of the script: {runtime} seconds")
-with open('lr_training_times.json', 'w') as f:
-    json.dump({'training_times': training_times3}, f)
+#     training_times3.append(runtime)
+#     print(f"Runtime of the script: {runtime} seconds")
+# with open('lr_training_times.json', 'w') as f:
+#     json.dump({'training_times': training_times3}, f)

@@ -11,8 +11,8 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import accuracy_score, classification_report
 from joblib import dump
 
-training_times2 = []
-for x in range(10):
+# training_times2 = []
+for x in range(1):
     start_time = time.time()
     Categories = ['PD', 'NON_PD']
     flat_data_arr = []
@@ -47,6 +47,14 @@ for x in range(10):
 
     mean_test_scores = grid.cv_results_['mean_test_score']
     max_depths = param_grid['max_depth']
+    best_index = grid.best_index_
+    cv_results = grid.cv_results_
+    n_folds = 5
+
+    print(f"Cross-validation accuracies per fold for the best model:")
+    for i in range(n_folds):
+        fold_score = cv_results[f'split{i}_test_score'][best_index]
+        print(f"Fold {i + 1}: {fold_score * 100:.2f}%")
 
     plt.figure(figsize=(12, 6))
     plt.plot(max_depths, mean_test_scores, marker='o')
@@ -70,8 +78,8 @@ for x in range(10):
 
     end_time = time.time()
     runtime = end_time - start_time
-    training_times2.append(runtime)
-    print(f"Runtime of the script: {runtime} seconds")
-
-with open('dtree_training_times.json', 'w') as f:
-    json.dump({'training_times': training_times2}, f)
+#     training_times2.append(runtime)
+#     print(f"Runtime of the script: {runtime} seconds")
+#
+# with open('dtree_training_times.json', 'w') as f:
+#     json.dump({'training_times': training_times2}, f)
